@@ -31,7 +31,7 @@
 
 #include "net/csma_sender.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 const csma_sender_conf_t CSMA_SENDER_CONF_DEFAULT = {

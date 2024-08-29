@@ -31,7 +31,7 @@
 #include "irq.h"
 #include "list.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #if MAXTHREADS > 1

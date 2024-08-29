@@ -60,7 +60,7 @@
 #include "progress_bar.h"
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #ifndef SUIT_WORKER_STACKSIZE

@@ -24,7 +24,7 @@
 #include "periph/ptp.h"
 #include "ztimer/periph_ptp.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static ztimer_clock_t *clock_timer;

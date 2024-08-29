@@ -27,7 +27,7 @@
 #define EPD_BW_SPI_DISP_COLOR_DEPTH (1U)
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static void _epd_bw_spi_map(const disp_dev_t *disp_dev, const disp_dev_area_t *area,

@@ -28,7 +28,7 @@
 #include <string.h>
 #include <stdio.h>
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define _USED_INSTANCES(_obj) (_obj.wakaama_object.instanceList)

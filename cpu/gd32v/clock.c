@@ -45,7 +45,7 @@
 #define RCU_CFG0_SCSS_HXTAL  (1 << RCU_CFG0_SCSS_Pos)
 #define RCU_CFG0_SCSS_PLL    (2 << RCU_CFG0_SCSS_Pos)
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 void periph_clk_en(bus_t bus, uint32_t mask)

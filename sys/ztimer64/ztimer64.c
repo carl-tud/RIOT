@@ -29,7 +29,7 @@
 
 #include "ztimer64.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* Checkpointing interval, don't change. See `ztimer64_now()` for an explanation

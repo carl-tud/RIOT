@@ -29,7 +29,7 @@
 
 #include "tinyusb_dfu.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #ifdef MODULE_RIOTBOOT_TINYUSB_DFU

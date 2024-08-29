@@ -27,7 +27,7 @@
 #include "periph/gpio_ll.h"
 #include "periph/gpio_ll_irq.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define ISR_PORTS_NUMOF     2U

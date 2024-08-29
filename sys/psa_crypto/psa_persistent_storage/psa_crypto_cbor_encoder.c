@@ -21,7 +21,7 @@
 #include "nanocbor/nanocbor.h"
 #include "psa_crypto_slot_management.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 /**

@@ -41,7 +41,7 @@
 #include "net/gnrc/sixlowpan/frag/sfr.h"
 #include "net/gnrc/sixlowpan/frag/sfr/congure.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define FRAG_DESCS_POOL_SIZE    (CONFIG_GNRC_SIXLOWPAN_FRAG_FB_SIZE * \

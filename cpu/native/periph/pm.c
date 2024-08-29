@@ -33,7 +33,7 @@
 #include "gpiodev_linux.h"
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 unsigned _native_retval = EXIT_SUCCESS;

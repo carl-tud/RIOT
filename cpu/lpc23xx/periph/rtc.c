@@ -30,7 +30,7 @@
 #include "lpc23xx.h"
 #include "timex.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* Alarm callback */

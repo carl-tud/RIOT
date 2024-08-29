@@ -23,7 +23,7 @@
 #include "saul.h"
 #include "ina3221.h"
 
-#define ENABLE_DEBUG            0
+/* #define ENABLE_DEBUG            0 */
 #include "debug.h"
 
 static int read_bus_voltage(const void *dev, phydat_t *res)

@@ -25,7 +25,7 @@
 #include "hal/interrupt_controller_ll.h"
 #include "soc/periph_defs.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define RVHAL_EXCM_LEVEL    4

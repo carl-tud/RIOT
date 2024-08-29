@@ -29,7 +29,7 @@
 #include "periph_conf.h"
 #include "periph_cpu.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static uart_isr_ctx_t _isr_ctx[UART_NUMOF];

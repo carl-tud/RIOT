@@ -45,7 +45,7 @@
 #include "test_utils/expect.h"
 #include "tty_uart.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 typedef enum {

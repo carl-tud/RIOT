@@ -26,7 +26,7 @@
 #include "periph_conf.h"
 #include <stdio.h>
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 /* Vendor files don't offer a convenient way to access these registers

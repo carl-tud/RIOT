@@ -28,7 +28,7 @@
 #include "at24cxxx_defines.h"
 #include "at24cxxx.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /**

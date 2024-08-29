@@ -22,7 +22,7 @@
 #include "net/gnrc/ipv6/hdr.h"
 #include "utlist.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 gnrc_pktsnip_t *gnrc_icmpv6_echo_build(uint8_t type, uint16_t id, uint16_t seq,

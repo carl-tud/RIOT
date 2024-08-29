@@ -24,7 +24,7 @@
 #include "net/lorawan/hdr.h"
 
 #include "fmt.h"
-#define ENABLE_DEBUG      0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define MIC_B0_START (0x49)

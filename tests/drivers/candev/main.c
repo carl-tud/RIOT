@@ -49,7 +49,7 @@ static candev_mcp2515_t mcp2515_dev;
 /* add includes for other candev drivers here */
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include <debug.h>
 
 /* Default is not using loopback test mode */

@@ -41,7 +41,7 @@
 #include "ws281x_params.h"
 #include "ws281x_constants.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* (+ NS_PER_SEC - 1): Rounding up, as T1H is the time that needs to distinctly

@@ -13,7 +13,7 @@
 #include "architecture.h"
 #include "memarray.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 void memarray_init(memarray_t *mem, void *data, size_t size, size_t num)

@@ -24,7 +24,7 @@
 #include "net/nanocoap/cache.h"
 #include "hashes/sha256.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static int _cache_replacement_lru(void);

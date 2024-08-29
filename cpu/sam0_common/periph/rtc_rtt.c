@@ -35,7 +35,7 @@
 #include "periph/rtt.h"
 #include "periph_conf.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* SAML21 rev B needs an extra bit, which in rev A defaults to 1, but isn't

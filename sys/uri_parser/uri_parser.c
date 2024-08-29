@@ -27,7 +27,7 @@
 
 #define MAX_PORT_STR_LEN    (5)
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* strchr for non-Null-terminated strings (buffers) */

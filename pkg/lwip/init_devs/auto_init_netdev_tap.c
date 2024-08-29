@@ -22,7 +22,7 @@
 
 #include "lwip_init_devs.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define NETIF_TAP_NUMOF        (NETDEV_TAP_MAX)

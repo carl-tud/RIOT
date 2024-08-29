@@ -32,7 +32,7 @@
 #include "disp_dev.h"
 #endif
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #ifndef LCD_SCREEN_WIDTH

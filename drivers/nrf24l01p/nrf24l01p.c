@@ -23,7 +23,7 @@
 #include "thread.h"
 #include "msg.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define SPI_MODE            SPI_MODE_0

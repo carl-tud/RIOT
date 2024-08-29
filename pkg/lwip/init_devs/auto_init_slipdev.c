@@ -21,7 +21,7 @@
 
 #include "lwip_init_devs.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define NETIF_SLIPDEV_NUMOF ARRAY_SIZE(slipdev_params)

@@ -24,7 +24,7 @@
 #include "test_utils/benchmark_udp.h"
 #include "xtimer.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static sock_udp_t sock;

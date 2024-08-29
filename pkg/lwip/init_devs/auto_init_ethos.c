@@ -22,7 +22,7 @@
 
 #include "lwip_init_devs.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define NETIF_ETHOS_NUMOF        ARRAY_SIZE(ethos_params)

@@ -38,7 +38,7 @@
 #include "lcd.h"
 #include "lcd_internal.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static int _init(lcd_t *dev, const lcd_params_t *params)

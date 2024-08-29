@@ -20,7 +20,7 @@
 #include "net/gnrc/netif/internal.h"
 #include "net/gnrc/netif/pktq.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static mutex_t _pool_lock = MUTEX_INIT;

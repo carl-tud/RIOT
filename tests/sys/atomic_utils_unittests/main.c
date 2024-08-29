@@ -26,7 +26,7 @@
 #include "volatile_utils.h"
 #include "random.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 typedef uint8_t (*fetch_op_u8_t)(volatile uint8_t *dest, uint8_t val);

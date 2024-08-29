@@ -31,7 +31,7 @@
 #include "lis2dh12_params.h"
 #include "lis2dh12_registers.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* device specific */

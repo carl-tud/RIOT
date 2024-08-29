@@ -24,7 +24,7 @@
 #include "cpu.h"
 #include "periph/flashpage.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 __attribute__((aligned(FLASHPAGE_SIZE * FLASHPAGE_NUMOF)))

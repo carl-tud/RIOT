@@ -29,7 +29,7 @@
 #include "soc/periph_defs.h"
 #include "esp_intr_alloc.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #ifndef ETS_CAN_INTR_SOURCE

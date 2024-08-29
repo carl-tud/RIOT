@@ -21,7 +21,7 @@
 #include "srf04.h"
 #include "srf04_params.h"
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define SRF04_DISTANCE      (584U)

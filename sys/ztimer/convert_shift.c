@@ -26,7 +26,7 @@
 #include "ztimer/convert.h"
 #include "ztimer/convert_shift.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static uint32_t _convert_shift_up_set(

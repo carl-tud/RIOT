@@ -32,7 +32,7 @@
 #include "sx126x_netdev.h"
 #include "sx126x_internal.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 const uint8_t llcc68_max_sf = LORA_SF11;

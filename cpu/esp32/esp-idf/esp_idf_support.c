@@ -27,7 +27,7 @@
 #include "esp_attr.h"
 #include "esp_log.h"
 
-#define ENABLE_DEBUG  0
+/* #define ENABLE_DEBUG  0 */
 #include "debug.h"
 
 #if IS_USED(MODULE_ESP_WIFI_ANY) || IS_USED(MODULE_ESP_ETH)

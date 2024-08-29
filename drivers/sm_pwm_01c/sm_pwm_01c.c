@@ -26,7 +26,7 @@
 #include "sm_pwm_01c_params.h"
 #include "ztimer.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* Scaling value to get 1/100 of a % resolution for lpo values */

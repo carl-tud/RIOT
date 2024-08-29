@@ -27,7 +27,7 @@
 #include "periph/i2c.h"
 #include "periph/pio/i2c.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 void i2c_init(i2c_t dev)

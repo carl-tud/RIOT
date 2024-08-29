@@ -27,7 +27,7 @@
 #include "shtcx.h"
 #include "shtcx_regs.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 int8_t shtcx_init(shtcx_t *const dev, const shtcx_params_t *params)

@@ -49,7 +49,7 @@
 #include "board.h"
 
 #define ENABLE_DEBUG_HEXDUMP    0
-#define ENABLE_DEBUG            0
+/* #define ENABLE_DEBUG            0 */
 #include "debug.h"
 
 #if !defined(EMAC_PHY_SMI_MDC_PIN) || !defined(EMAC_PHY_SMI_MDIO_PIN)

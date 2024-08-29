@@ -33,7 +33,7 @@
 #include "host/ble_gap.h"
 #include "nimble/nimble_port.h"
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 /* parent state */

@@ -36,7 +36,7 @@
 #include "periph_conf.h"
 #include "ztimer.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define I2C_TIMEOUT_CYCLES      1000        /* clock cycles */

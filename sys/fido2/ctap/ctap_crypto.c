@@ -31,7 +31,7 @@
 #include "fido2/ctap.h"
 #include "fido2/ctap/ctap_utils.h"
 
-#define ENABLE_DEBUG    (0)
+/* #define ENABLE_DEBUG    (0) */
 #include "debug.h"
 
 /**

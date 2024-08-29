@@ -34,7 +34,7 @@
 #include "thread.h"
 #include "vfs.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #if IS_ACTIVE(ENABLE_DEBUG)

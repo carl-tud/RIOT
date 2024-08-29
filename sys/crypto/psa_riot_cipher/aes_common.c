@@ -21,7 +21,7 @@
 #include "psa/crypto.h"
 #include "crypto/modes/cbc.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 psa_status_t cipher_to_psa_error(int error)

@@ -22,7 +22,7 @@
 #include "assert.h"
 #include "sema.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 void sema_create(sema_t *sema, unsigned int value)

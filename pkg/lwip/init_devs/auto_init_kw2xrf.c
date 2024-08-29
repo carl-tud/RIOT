@@ -26,7 +26,7 @@
 #include "bhp/event.h"
 #include "net/netdev/ieee802154_submac.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define NETIF_KW2XRF_NUMOF        ARRAY_SIZE(kw2xrf_params)

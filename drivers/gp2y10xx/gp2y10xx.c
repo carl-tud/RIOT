@@ -26,7 +26,7 @@
 #include "periph/gpio.h"
 #include "xtimer.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define ILED_PULSE_WAIT_US  (280U)

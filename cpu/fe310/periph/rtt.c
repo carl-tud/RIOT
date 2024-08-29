@@ -33,7 +33,7 @@
 #include "vendor/riscv_csr.h"
 #include "vendor/platform.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* Convert RTT freq to pre-scaler value */

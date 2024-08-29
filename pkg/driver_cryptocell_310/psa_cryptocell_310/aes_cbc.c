@@ -21,7 +21,7 @@
 #include "psa_cryptocell_310_aes_common.h"
 #include "ssi_aes.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 psa_status_t psa_cipher_cbc_aes_128_encrypt(const psa_key_attributes_t *attributes,

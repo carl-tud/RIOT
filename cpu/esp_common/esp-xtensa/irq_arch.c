@@ -31,7 +31,7 @@
 #include "xtensa/config/core-isa.h"
 #include "xtensa/xtensa_context.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /**

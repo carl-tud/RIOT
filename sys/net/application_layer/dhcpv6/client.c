@@ -33,7 +33,7 @@
 #include "xtimer/implementation.h"
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #include "_dhcpv6.h"

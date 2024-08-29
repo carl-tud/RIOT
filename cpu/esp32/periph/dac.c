@@ -26,7 +26,7 @@
 #include "driver/dac_common.h"
 #include "soc/dac_periph.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* forward declarations of internal functions */

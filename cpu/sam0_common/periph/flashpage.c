@@ -34,7 +34,7 @@
 #include "periph/flashpage.h"
 #include "unaligned.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* Write Quad Word is the only allowed operation on AUX pages */

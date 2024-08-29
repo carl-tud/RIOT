@@ -26,7 +26,7 @@
 #include "mrf24j40_netdev.h"
 #include "ztimer.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 int mrf24j40_reset(mrf24j40_t *dev)

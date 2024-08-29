@@ -27,7 +27,7 @@
 #include "cpu_conf.h"
 #include "irq.h"
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define SPIDEV              (dev->params->spi)

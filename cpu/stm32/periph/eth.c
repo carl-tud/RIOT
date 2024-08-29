@@ -35,7 +35,7 @@
 #include "periph/gpio_ll.h"
 #include "time_units.h"
 
-#define ENABLE_DEBUG            0
+/* #define ENABLE_DEBUG            0 */
 #define ENABLE_DEBUG_VERBOSE    0
 #include "debug.h"
 

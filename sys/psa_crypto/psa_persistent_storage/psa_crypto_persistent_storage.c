@@ -26,7 +26,7 @@
 #include "fs/littlefs2_fs.h"
 #include "mtd.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 XFA_USE(vfs_mount_t, vfs_mountpoints_xfa);

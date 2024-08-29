@@ -28,7 +28,7 @@
 #include "thread.h"
 #include "ztimer64.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #include "semaphore.h"

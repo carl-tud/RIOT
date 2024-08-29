@@ -27,7 +27,7 @@
 #include "net/gnrc/rpl/p2p_structs.h"
 #include "net/gnrc/rpl/p2p_dodag.h"
 
-#define ENABLE_DEBUG                    0
+/* #define ENABLE_DEBUG                   0 */
 #include "debug.h"
 
 #define GNRC_RPL_P2P_RDO_LEN            (18)

@@ -31,7 +31,7 @@
 #include "tsrb.h"
 #include "log.h"
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define IP_MAX_LEN_ADDRESS  (39)    /*IPv6 max length */

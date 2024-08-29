@@ -182,7 +182,7 @@
 #define SERVER_MSG_QUEUE_SIZE                       (CONFIG_GNRC_IPV6_AUTO_SUBNETS_PEERS_MAX)
 #define SERVER_MSG_TYPE_TIMEOUT                     (0x8fae)
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static char addr_str[IPV6_ADDR_MAX_STR_LEN];

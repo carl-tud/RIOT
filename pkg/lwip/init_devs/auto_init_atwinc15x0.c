@@ -22,7 +22,7 @@
 
 #include "lwip_init_devs.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define NETIF_ATWINC_NUMOF ARRAY_SIZE(atwinc15x0_params)

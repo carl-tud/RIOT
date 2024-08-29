@@ -31,7 +31,7 @@
 #include "time.h"
 #include "mutex.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include <debug.h>
 
 #define TEST_FATFS_MAX_VOL_STR_LEN 14 /* "-2147483648:/\0" */

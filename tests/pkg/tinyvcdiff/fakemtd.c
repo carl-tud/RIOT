@@ -20,7 +20,7 @@
 #include <errno.h>
 #include "fakemtd.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static inline uint32_t sector2offset(fake_mtd_t *ctx, uint32_t sector)

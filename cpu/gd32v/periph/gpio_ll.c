@@ -24,7 +24,7 @@
 #include "bitarithm.h"
 #include "periph/gpio_ll.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #ifdef MODULE_FMT

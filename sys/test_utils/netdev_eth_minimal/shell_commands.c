@@ -30,7 +30,7 @@
 #include "netdev_eth_minimal_internal.h"
 #include "init_dev.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 int ifconfig_list(int idx)

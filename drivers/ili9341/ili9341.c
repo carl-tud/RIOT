@@ -32,7 +32,7 @@
 #include "lcd.h"
 #include "lcd_internal.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* datasheet page 178, table converted to equation.

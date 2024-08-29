@@ -27,7 +27,7 @@
 #include "string_utils.h"
 #include "vfs.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static int nanocoap_fs_mount(vfs_mount_t *mountp)

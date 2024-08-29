@@ -22,7 +22,7 @@
 #include "net/gnrc/rpl/of_manager.h"
 #include "of0.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 /* !!! TODO: port etx/mrhof to the new network stack */
 

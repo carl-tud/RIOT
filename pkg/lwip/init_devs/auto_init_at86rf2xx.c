@@ -22,7 +22,7 @@
 
 #include "lwip_init_devs.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define NETIF_AT86RF2XX_NUMOF        ARRAY_SIZE(at86rf2xx_params)

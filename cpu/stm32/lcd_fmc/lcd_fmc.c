@@ -25,7 +25,7 @@
 #include "lcd_internal.h"
 #include "ztimer.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #ifndef LCD_FMC_NUMOF

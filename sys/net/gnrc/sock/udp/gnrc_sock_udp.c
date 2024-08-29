@@ -30,7 +30,7 @@
 
 #include "gnrc_sock_internal.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #ifdef MODULE_GNRC_SOCK_CHECK_REUSE

@@ -35,7 +35,7 @@
 #include "vfs.h"
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #ifndef CONFIG_BOOT_MSG_STRING

@@ -27,7 +27,7 @@
 
 #include "net/lorawan/hdr.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static void _build_join_req_pkt(uint8_t *joineui, uint8_t *deveui,

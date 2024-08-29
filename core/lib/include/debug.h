@@ -86,10 +86,14 @@ extern "C" {
  */
 /**
  * @brief   This macro can be defined as 0 or other on a file-based level.
- *          @ref DEBUG() will generate output only if ENABLE_DEBUG is non-zero.
+ *          @ref DEBUG() will generate output only if `ENABLE_DEBUG` is non-zero.
+ *          By default, `ENABLE_DEBUG` will be set to 1 if the file's debugging domain
+ *          (`module.filename`) is contained the space-separated `DEBUGGING_DOMAIN`
+ *          environment variable when building.
+ *
  */
 #if !defined(ENABLE_DEBUG) || defined(DOXYGEN)
-#define ENABLE_DEBUG 0
+#define ENABLE_DEBUG ENABLE_DEBUG_ENV
 #endif
 
 /**
@@ -109,13 +113,26 @@ extern "C" {
 # endif
 
 /**
+ * @def DEBUG_PREFIX
+ *
+ * @brief Prefix for `DEBUG` invocations. Defaults to the `LOG_DOMAIN: `.
+ *        Can be defined to a custom prefix on a file-based-level.
+ * @note `LOG_DOMAIN` will be automatically set to `module.filename`.
+ */
+#ifdef LOG_DOMAIN
+# define DEBUG_PREFIX LOG_DOMAIN ": "
+#else
+# define DEBUG_PREFIX
+#endif
+
+/**
  * @def DEBUG
  *
  * @brief Print debug information to stdout
  *
  * @note Another name for ::DEBUG_PRINT
  */
-#define DEBUG(...) do { if (ENABLE_DEBUG) { DEBUG_PRINT(__VA_ARGS__); } } while (0)
+#define DEBUG(...) do { if (ENABLE_DEBUG) { DEBUG_PRINT(DEBUG_PREFIX __VA_ARGS__); } } while (0)
 
 /**
  * @def DEBUG_PUTS

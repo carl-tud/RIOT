@@ -22,7 +22,7 @@
 #include "test_utils/expect.h"
 #include "usbdev_mock.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static usbdev_mock_t _usbdev_mock;

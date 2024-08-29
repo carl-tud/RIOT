@@ -23,7 +23,7 @@
 #include "cryptocell_310_util.h"
 #include "string_utils.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 extern CRYS_RND_State_t *rndState_ptr;

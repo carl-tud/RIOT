@@ -30,7 +30,7 @@
 #include "net/sixlowpan.h"
 #include "utlist.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static inline uint16_t _floor8(uint16_t length)

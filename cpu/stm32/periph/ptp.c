@@ -29,7 +29,7 @@
 #include "periph_cpu.h"
 #include "timex.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #define DEBUG_VERBOSE   0
 #include "debug.h"
 

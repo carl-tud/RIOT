@@ -22,7 +22,7 @@
 #include "fatfs_diskio_mtd.h"
 #include "ffconf.h"
 #include "mtd.h"
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #if FATFS_FFCONF_OPT_FS_NORTC == 0

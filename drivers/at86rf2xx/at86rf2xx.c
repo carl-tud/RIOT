@@ -34,7 +34,7 @@
 #include "at86rf2xx_aes.h"
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static void at86rf2xx_disable_clock_output(at86rf2xx_t *dev)

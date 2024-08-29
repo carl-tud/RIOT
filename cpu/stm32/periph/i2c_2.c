@@ -50,7 +50,7 @@
 /* Some DEBUG statements may cause delays that alter i2c functionality.
  * E.g. on STM32F1 the delay can cause issues in the state machine that
  * prevent communication. Using faster stdio than UART can mitigate this. */
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define TICK_TIMEOUT        (0xFFFF)

@@ -20,7 +20,7 @@
 #include "cpu.h"
 #include "periph/rtc.h"
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define EXTI_IMR_BIT        (EXTI_IMR_MR17)

@@ -22,7 +22,7 @@
 #include "auto_init_priorities.h"
 #endif
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 static void *_tinyusb_thread_impl(void *arg)

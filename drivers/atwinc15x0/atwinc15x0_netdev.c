@@ -45,7 +45,7 @@
 #include "string_utils.h"
 #include "net/netif.h"
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #define ENABLE_DEBUG_DUMP   0
 #include "debug.h"
 

@@ -23,7 +23,7 @@
 #include "net/gnrc.h"
 #include "gnrc_netif_xbee.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define BCAST           (GNRC_NETIF_HDR_FLAGS_BROADCAST | \

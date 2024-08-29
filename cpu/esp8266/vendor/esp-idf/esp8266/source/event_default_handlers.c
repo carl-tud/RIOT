@@ -13,7 +13,7 @@
 // limitations under the License.
 
 #ifdef RIOT_VERSION
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 #include "esp_common.h"
 #endif

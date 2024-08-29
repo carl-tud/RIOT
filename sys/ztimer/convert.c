@@ -25,7 +25,7 @@
 
 #include "ztimer/convert.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 void ztimer_convert_cancel(ztimer_clock_t *clock)

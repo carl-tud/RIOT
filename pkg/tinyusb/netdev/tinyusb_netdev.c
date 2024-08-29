@@ -29,7 +29,7 @@
 #include "tinyusb_netdev.h"
 
 #define ENABLE_DEBUG_HEXDUMP    0
-#define ENABLE_DEBUG            0
+/* #define ENABLE_DEBUG            0 */
 #include "debug.h"
 
 /* The symbol is needed by the tinyUSB stack but not used and shall be removed

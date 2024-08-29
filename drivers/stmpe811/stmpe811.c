@@ -32,7 +32,7 @@
 #include "stmpe811_constants.h"
 #include "stmpe811_params.h"
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #if IS_USED(MODULE_STMPE811_SPI)

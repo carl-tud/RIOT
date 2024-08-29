@@ -48,7 +48,7 @@
 #include "kernel_defines.h"
 #include "native_internal.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 ssize_t (*real_read)(int fd, void *buf, size_t count);

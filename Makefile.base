@@ -135,10 +135,29 @@ $(OBJC_LTO): CFLAGS+=$(LTOFLAGS)
 # Define dependencies for object files
 OBJ_DEPS += $(RIOTBUILD_CONFIG_HEADER_C)
 
+# A debugging domain is a string comprised of the module name and
+# the object's filename, separated by a dot: module.filename.
+# The debugging domain is used for enabling logging for specific files
+# from the command line and for the prefix of debug log entries.
+
+# DEBUGGING_DOMAINS contains a space-separated list of debugging domains to
+# enable.
+
+# Allow specifying just module in the DEBUG_DOMAINS env var
+# instead of each subdomain individually
+ifneq (,$(filter $(MODULE),$(DEBUG_DOMAINS)))
+	DEBUG_ALL_MODULE_DOMAINS = 1
+endif
+
+# Generate debugging domain
+%.o: LOG_DOMAIN=$(if $(filter $(basename $<),$(MODULE)),$(MODULE),$(MODULE).$(basename $<))
+
 $(OBJC): $(BINDIR)/$(MODULE)/%.o: %.c $(OBJ_DEPS) | $(if $(SHOULD_RUN_KCONFIG),$(KCONFIG_GENERATED_AUTOCONF_HEADER_C))
 	$(Q)$(CCACHE) $(CC) \
 		-DRIOT_FILE_RELATIVE=\"$(patsubst $(RIOTBASE)/%,%,$(abspath $<))\" \
 		-DRIOT_FILE_NOPATH=\"$(notdir $<)\" \
+		-DENABLE_DEBUG_ENV=$(if $(filter $(LOG_DOMAIN),$(DEBUGGING_DOMAINS)),1,$(if $(DEBUG_ALL_MODULE_DOMAINS),1,0)) \
+		-DLOG_DOMAIN=\"$(LOG_DOMAIN)\" \
 		$(CFLAGS) $(INCLUDES) -MQ '$@' -MD -MP -c -o $@ $(abspath $<)
 ifneq (,$(SHOULD_RUN_KCONFIG))
 	$(Q)$(FIXDEP) $(@:.o=.d) $@ $(KCONFIG_SYNC_DIR) > $(@:.o=.tmp)
@@ -149,6 +168,8 @@ $(GENOBJC): %.o: %.c $(OBJ_DEPS) | $(if $(SHOULD_RUN_KCONFIG),$(KCONFIG_GENERATE
 	$(Q) $(CCACHE) $(CC) \
 		-DRIOT_FILE_RELATIVE=\"$(patsubst $(RIOTBASE)/%,%,$<)\" \
 		-DRIOT_FILE_NOPATH=\"$(notdir $<)\" \
+		-DENABLE_DEBUG_ENV=$(if $(filter $(LOG_DOMAIN),$(DEBUGGING_DOMAINS)),1,$(if $(DEBUG_ALL_MODULE_DOMAINS),1,0)) \
+		-DLOG_DOMAIN=\"$(LOG_DOMAIN)\" \
 		$(CFLAGS) $(INCLUDES) -MQ '$@' -MD -MP -c -o $@ $<
 ifneq (,$(SHOULD_RUN_KCONFIG))
 	$(Q)$(FIXDEP) $(@:.o=.d) $@ $(KCONFIG_SYNC_DIR) > $(@:.o=.tmp)
@@ -159,6 +180,8 @@ $(OBJCXX): $(BINDIR)/$(MODULE)/%.o: %.$(SRCXXEXT) $(OBJ_DEPS) | $(if $(SHOULD_RU
 	$(Q)$(CCACHE) $(CXX) \
 		-DRIOT_FILE_RELATIVE=\"$(patsubst $(RIOTBASE)/%,%,$(abspath $<))\" \
 		-DRIOT_FILE_NOPATH=\"$(notdir $<)\" \
+		-DENABLE_DEBUG_ENV=$(if $(filter $(LOG_DOMAIN),$(DEBUGGING_DOMAINS)),1,$(if $(DEBUG_ALL_MODULE_DOMAINS),1,0)) \
+		-DLOG_DOMAIN=\"$(LOG_DOMAIN)\" \
 		$(CXXFLAGS) $(CXXINCLUDES) $(INCLUDES) -MQ '$@' -MD -MP -c -o $@ $(abspath $<)
 ifneq (,$(SHOULD_RUN_KCONFIG))
 	$(Q)$(FIXDEP) $(@:.o=.d) $@ $(KCONFIG_SYNC_DIR) > $(@:.o=.tmp)

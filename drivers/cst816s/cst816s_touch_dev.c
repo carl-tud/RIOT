@@ -28,7 +28,7 @@
 #include "cst816s.h"
 #include "cst816s_touch_dev.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #ifndef CST816S_XMAX

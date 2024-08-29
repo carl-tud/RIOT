@@ -34,7 +34,7 @@
 #include "panic.h"
 #include "sys/bus.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #ifndef CPU_ATMEGA_CLK_SCALE_INIT

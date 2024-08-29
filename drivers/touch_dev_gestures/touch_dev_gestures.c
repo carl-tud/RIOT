@@ -29,7 +29,7 @@
 
 #include "touch_dev_gestures.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 static touch_dev_gesture_t _handle_swipe(const touch_t *prev,

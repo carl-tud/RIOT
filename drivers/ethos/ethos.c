@@ -40,7 +40,7 @@
 extern isrpipe_t ethos_stdio_isrpipe;
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define ETHOS_FRAME_TYPE_ERRORED    (0xff)

@@ -21,7 +21,7 @@
 #include "tinyusb.h"
 #include "tinyusb_dfu.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 extern void tinyusb_dfu_init(void);

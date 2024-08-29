@@ -34,7 +34,7 @@
 #include "bitarithm.h"
 #include "periph/gpio_ll_irq.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define EXTI_NUMOF          (16U)

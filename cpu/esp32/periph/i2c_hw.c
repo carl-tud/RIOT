@@ -50,7 +50,7 @@
 #include "rom/ets_sys.h"
 #include "soc/i2c_reg.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* Ensure that the I2Cn_* symbols define I2C_DEV(n) */

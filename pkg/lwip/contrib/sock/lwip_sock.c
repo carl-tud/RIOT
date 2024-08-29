@@ -37,7 +37,7 @@
 #error "lwip_sock needs IPv4 or IPv6 support"
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /**

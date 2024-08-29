@@ -34,7 +34,7 @@
 #include "rom/ets_sys.h"
 #include "soc/gpio_sig_map.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define CAN     TWAI

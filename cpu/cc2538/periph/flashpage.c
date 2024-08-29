@@ -25,7 +25,7 @@
 #include "irq.h"
 #include "periph/flashpage.h"
 
-#define ENABLE_DEBUG           0
+/* #define ENABLE_DEBUG           0 */
 #include "debug.h"
 
 #define FLASH_CTRL_FCTL_BUSY        0x00000080

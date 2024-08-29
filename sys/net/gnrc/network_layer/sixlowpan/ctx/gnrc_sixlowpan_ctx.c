@@ -24,7 +24,7 @@
 #include "xtimer.h"
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static gnrc_sixlowpan_ctx_t _ctxs[GNRC_SIXLOWPAN_CTX_SIZE];

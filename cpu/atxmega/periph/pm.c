@@ -24,7 +24,7 @@
 #include "periph/pm.h"
 #include "periph_conf.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define PWR_REG_BASE        ((uint16_t)&PR)

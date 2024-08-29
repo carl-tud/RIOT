@@ -32,7 +32,7 @@
 
 #include "sdmmc/sdmmc.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* millisecond timer definitions dependent on active ztimer backend */

@@ -24,7 +24,7 @@
 #include "thread.h"
 #include "ztimer.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static void _ev_timer_handler(event_t *event)

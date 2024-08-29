@@ -34,7 +34,7 @@
 #include "xtimer.h"
 #endif
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 /* pull reset pin low for ~10 us */

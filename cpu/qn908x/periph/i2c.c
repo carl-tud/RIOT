@@ -37,7 +37,7 @@
 #include "gpio_mux.h"
 #include "flexcomm.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static mutex_t locks[I2C_NUMOF];

@@ -25,7 +25,7 @@
 #include "veml6070_params.h"
 #include "periph/i2c.h"
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define VEML6070_ADDRH      (0x39)

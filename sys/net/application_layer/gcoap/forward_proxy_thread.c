@@ -23,7 +23,7 @@
 
 #include "forward_proxy_internal.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 static char _forward_proxy_thread[GCOAP_PROXY_STACK_SIZE];

@@ -34,7 +34,7 @@
 #include "random.h"
 #include "ztimer.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 /* min domain name length is 1, so minimum record length is 7 */

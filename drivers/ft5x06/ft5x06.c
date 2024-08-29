@@ -31,7 +31,7 @@
 #include "ft5x06_constants.h"
 #include "ft5x06_params.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define FT5X06_BUS              (dev->params->i2c)

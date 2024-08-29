@@ -22,7 +22,7 @@
 #include "periph/spi.h"
 #include "at86rf2xx_aes.h"
 
-#define ENABLE_DEBUG              0
+/* #define ENABLE_DEBUG              0 */
 #include "debug.h"
 
 #define AES_DEBUG(...)            DEBUG("[at86rf2xx_aes_spi]: "__VA_ARGS__)

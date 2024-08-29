@@ -42,7 +42,7 @@
 #include "periph/timer.h"
 #include "time_units.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define NATIVE_TIMER_SPEED 1000000

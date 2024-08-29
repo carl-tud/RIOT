@@ -35,7 +35,7 @@
 #include "net/gnrc/rpl/p2p_dodag.h"
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static char addr_str[IPV6_ADDR_MAX_STR_LEN];

@@ -25,7 +25,7 @@
 #include "ztimer/convert.h"
 #include "ztimer/convert_muldiv64.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static void _ztimer_convert_muldiv64_set(ztimer_clock_t *ztimer, uint32_t val);

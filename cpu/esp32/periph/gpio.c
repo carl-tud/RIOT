@@ -54,7 +54,7 @@
 #include "irq_arch.h"
 #include "syscalls.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #if SOC_PM_SUPPORT_EXT_WAKEUP

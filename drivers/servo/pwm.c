@@ -32,7 +32,7 @@
 #include "test_utils/expect.h"
 #include "macros/math.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /**

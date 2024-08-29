@@ -37,7 +37,7 @@
 #include "time_units.h"
 #include "ztimer.h"
 
-#define ENABLE_DEBUG            0
+/* #define ENABLE_DEBUG            0 */
 #include "debug.h"
 
 /* Every pulse send by the DHT longer than 40µs is interpreted as 1 */

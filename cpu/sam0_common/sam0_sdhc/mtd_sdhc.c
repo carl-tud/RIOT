@@ -25,7 +25,7 @@
 
 #include "mtd_sam0_sdhc.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define min(a, b) ((a) > (b) ? (b) : (a))

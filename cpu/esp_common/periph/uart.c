@@ -41,7 +41,7 @@
 #include "xtensa/xtensa_api.h"
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #if defined(CPU_ESP8266)

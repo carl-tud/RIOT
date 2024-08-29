@@ -19,7 +19,7 @@
 
 #include "at30tse75x.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static inline float temperature_to_float(uint16_t temp)

@@ -33,7 +33,7 @@
 #include "sdk/sdk.h"
 #include "xtensa/xtensa_api.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define TIMER_FRC1_CLKDIV_16    BIT(2)

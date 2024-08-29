@@ -25,7 +25,7 @@
 #include "periph/rtt.h"
 #include "periph_conf.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define EXTI_RTC_BIT       (1UL << 17)

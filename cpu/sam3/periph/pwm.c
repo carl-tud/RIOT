@@ -29,7 +29,7 @@
 #include "periph/pwm.h"
 #include "periph/gpio.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define PREA_MAX        (10U)

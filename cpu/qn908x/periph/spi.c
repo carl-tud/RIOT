@@ -33,7 +33,7 @@
 #include "flexcomm.h"
 #include "gpio_mux.h"
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 typedef struct {

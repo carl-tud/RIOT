@@ -39,7 +39,7 @@
 #include "smtc_ral/src/ral_defs.h"
 #include "smtc_ral/src/ral_sx1280.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static int _send(netdev_t *netdev, const iolist_t *iolist)

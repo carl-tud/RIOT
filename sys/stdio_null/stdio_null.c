@@ -22,7 +22,7 @@
 
 #include "stdio_base.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static ssize_t _write(const void* buffer, size_t len)

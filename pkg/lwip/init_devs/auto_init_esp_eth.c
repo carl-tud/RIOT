@@ -21,7 +21,7 @@
 
 #include "lwip_init_devs.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 extern esp_eth_netdev_t _esp_eth_dev;

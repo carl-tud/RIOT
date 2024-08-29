@@ -43,7 +43,7 @@
 #include "sdmmc/sdmmc.h"
 #include "sdmmc/vendor/sdhc.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #if defined(CPU_SAMD5X) || defined(CPU_SAME5X)

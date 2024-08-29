@@ -25,7 +25,7 @@
 
 #include "tusb.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #if CFG_TUD_MSC

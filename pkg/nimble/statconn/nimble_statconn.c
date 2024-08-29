@@ -32,7 +32,7 @@
 #error "nimble_statconn: CONN_ITVL_MIN_MS must be <= CONN_ITVL_MAX_MS"
 #endif
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define UNUSED          (0x00)

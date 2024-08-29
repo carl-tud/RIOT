@@ -37,7 +37,7 @@
 #include "driver/sdmmc_host.h"
 #include "soc/sdmmc_reg.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* CLK_EDGE_SEL - clock phase selection register */

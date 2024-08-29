@@ -27,7 +27,7 @@
 
 #include "forward_proxy_internal.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define CLIENT_EP_FLAGS_IN_USE          0x80

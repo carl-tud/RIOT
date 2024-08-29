@@ -28,7 +28,7 @@
 #include "esp_common.h"
 #include "sdk/sdk.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 extern uint16_t test_tout(void);

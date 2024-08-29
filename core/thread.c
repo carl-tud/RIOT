@@ -32,7 +32,7 @@
 #include "bitarithm.h"
 #include "sched.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #if defined(HAVE_VALGRIND_H)

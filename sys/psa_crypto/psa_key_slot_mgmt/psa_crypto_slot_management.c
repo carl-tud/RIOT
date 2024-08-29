@@ -22,7 +22,7 @@
 #include "psa_crypto_slot_management.h"
 #include "architecture.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #if IS_USED(MODULE_PSA_PERSISTENT_STORAGE)

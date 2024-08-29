@@ -22,7 +22,7 @@
 #include "cpu.h"
 #include "periph/timer.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static void _timer_isr(unsigned irq);

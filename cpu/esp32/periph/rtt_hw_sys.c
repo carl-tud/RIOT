@@ -43,7 +43,7 @@
 #include "xtensa/xtensa_api.h"
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define TIMER_SYSTEM_INT_MASK   BIT(TIMER_SYSTEM_INDEX)

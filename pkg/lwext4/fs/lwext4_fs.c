@@ -29,7 +29,7 @@
 #include <ext4_super.h>
 #include <ext4_mkfs.h>
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include <debug.h>
 
 /**

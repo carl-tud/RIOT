@@ -102,7 +102,7 @@
 #endif /* CPU_ESP8266 */
 
 #define ENABLE_DEBUG_HEXDUMP    0
-#define ENABLE_DEBUG            0
+/* #define ENABLE_DEBUG            0 */
 #include "debug.h"
 
 /**

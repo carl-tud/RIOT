@@ -23,7 +23,7 @@
 #include "net/sock/util.h"
 #include "vfs.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static int _2file(void *arg, size_t offset, uint8_t *buf, size_t len, int more)

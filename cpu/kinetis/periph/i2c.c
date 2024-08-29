@@ -36,7 +36,7 @@
 #include "periph_conf.h"
 #include "periph/i2c.h"
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 /* Define ENABLE_TRACE to 1 to enable printing of all TX/RX bytes to UART for extra verbose debugging */
 #define ENABLE_TRACE        1
 /* Define ENABLE_INIT_DEBUG to 1 to enable DEBUG prints in i2c_init. Currently

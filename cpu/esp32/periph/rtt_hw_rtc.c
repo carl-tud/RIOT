@@ -44,7 +44,7 @@
 #include "xtensa/xtensa_api.h"
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define RTC_CLK_CAL_FRACT       19  /* fractional bits of calibration value */

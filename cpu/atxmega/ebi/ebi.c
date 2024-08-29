@@ -27,7 +27,7 @@
 #include "cpu_pm.h"
 #include "cpu_ebi.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 void ebi_init(void) __attribute__((naked, section(".init1"), used));

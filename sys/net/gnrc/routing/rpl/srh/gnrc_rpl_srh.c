@@ -21,7 +21,7 @@
 #include "net/gnrc/ipv6/ext/rh.h"
 #include "net/gnrc/rpl/srh.h"
 
-#define ENABLE_DEBUG                0
+/* #define ENABLE_DEBUG                0 */
 #include "debug.h"
 
 #define GNRC_RPL_SRH_PADDING(X)     ((X & 0xF0) >> 4)

@@ -30,7 +30,7 @@
 #include "nimble/transport/hci_h4.h"
 #include "sysinit/sysinit.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* The size of an HCI command packet is defined as POOL_CMD_SIZE

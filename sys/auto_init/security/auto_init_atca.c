@@ -21,7 +21,7 @@
 #include "atca_params.h"
 #include "kernel_defines.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #if IS_USED(MODULE_PSA_SECURE_ELEMENT_ATECCX08A)

@@ -24,7 +24,7 @@
 #include "edhoc/edhoc.h"
 #include "edhoc_keys.h"
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define CRED_DB_SIZE        ARRAY_SIZE(cred_db)

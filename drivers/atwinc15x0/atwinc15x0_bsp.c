@@ -25,7 +25,7 @@
 #include "periph/spi.h"
 #include "ztimer.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 void atwinc15x0_isr(void *arg)

@@ -45,7 +45,7 @@
 #include "irq_arch.h"
 #include "syscalls.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define RTC_PLL_480M    480 /* PLL with 480 MHz at maximum */

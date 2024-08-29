@@ -33,7 +33,7 @@
 
 #include "net/lora.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static ral_lora_bw_t _lora_bw_to_ral_bw(int bw)

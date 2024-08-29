@@ -27,7 +27,7 @@
 #include "periph/i2c.h"
 #include "ztimer.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define DEV_I2C      (dev->params.i2c_dev)

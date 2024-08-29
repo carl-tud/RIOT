@@ -23,7 +23,7 @@
 #include "cpu_pm.h"
 #include "panic.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #ifndef CPU_ATXMEGA_CLK_SCALE_INIT

@@ -33,7 +33,7 @@
 #include "tinycrypt/sha256.h"
 #endif
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define COAP_BUF_SIZE     (256U)

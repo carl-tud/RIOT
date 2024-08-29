@@ -40,7 +40,7 @@
  * is able to interfere with USB functionality and you might see different
  * errors than debug disabled
  */
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #ifndef USB1_PMAADDR

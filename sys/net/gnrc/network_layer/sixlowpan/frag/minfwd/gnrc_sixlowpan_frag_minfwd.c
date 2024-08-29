@@ -23,7 +23,7 @@
 
 #include "net/gnrc/sixlowpan/frag/minfwd.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 static gnrc_pktsnip_t *_netif_hdr_from_vrbe(const gnrc_sixlowpan_frag_vrb_t *vrbe)

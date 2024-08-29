@@ -36,7 +36,7 @@
 
 #include "gcoap_example.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #if IS_USED(MODULE_GCOAP_DTLS)

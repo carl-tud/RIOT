@@ -21,7 +21,7 @@
 #include "objects/current.h"
 #include "objects/ipso_sensor_base.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /**

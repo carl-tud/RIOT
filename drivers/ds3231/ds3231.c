@@ -24,7 +24,7 @@
 #include "mutex.h"
 #include "ds3231.h"
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 /* some metadata about the devices registers */

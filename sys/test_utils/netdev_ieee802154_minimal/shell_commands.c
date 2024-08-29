@@ -33,7 +33,7 @@
 #include "test_utils/netdev_ieee802154_minimal.h"
 #include "init_dev.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static char _addr_str[IEEE802154_LONG_ADDRESS_LEN * 3];

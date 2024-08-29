@@ -30,7 +30,7 @@
 #include "esp_lcd_panel_io.h"
 #include "soc/gpio_reg.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #if !defined(CPU_FAM_ESP32) && !defined(CPU_FAM_ESP32S2) && !defined(CPU_FAM_ESP32S3)

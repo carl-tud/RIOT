@@ -33,7 +33,7 @@
 
 #include "sx127x.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 extern netdev_t *loramac_netdev_ptr;

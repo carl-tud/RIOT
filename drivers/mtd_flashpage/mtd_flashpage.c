@@ -32,7 +32,7 @@
 #include "mtd_flashpage.h"
 #include "periph/flashpage.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define MTD_FLASHPAGE_END_ADDR     ((uintptr_t) CPU_FLASH_BASE + (FLASHPAGE_NUMOF * FLASHPAGE_SIZE))

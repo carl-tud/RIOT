@@ -32,7 +32,7 @@
 #include "si1133.h"
 #include "si1133_internals.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /**

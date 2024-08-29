@@ -22,7 +22,7 @@
 #include "ztimer.h"
 #include "sched_round_robin.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static void _sched_round_robin_cb(void *d);

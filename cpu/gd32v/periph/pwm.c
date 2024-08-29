@@ -33,7 +33,7 @@
 #include "periph_conf.h"
 #include <stdio.h>
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define TIM_CHCTL0_CH0COMCT_0   (0x1U << TIMER0_CHCTL0_Output_CH0COMCTL_Pos)

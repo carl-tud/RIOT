@@ -23,7 +23,7 @@
 #include "cryptocell_310_util.h"
 #include "crys_hash.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define CC310_MAX_HASH_INPUT_BLOCK       (0xFFF0)

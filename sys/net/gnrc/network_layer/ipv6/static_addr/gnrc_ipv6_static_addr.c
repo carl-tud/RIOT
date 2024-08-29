@@ -22,7 +22,7 @@
 #include "net/netdev.h"
 #include "net/netopt.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /**

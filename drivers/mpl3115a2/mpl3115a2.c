@@ -33,7 +33,7 @@
 #include "mpl3115a2.h"
 #include "mpl3115a2_reg.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define BUS             (dev->params.i2c)

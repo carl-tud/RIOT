@@ -20,7 +20,7 @@
 #include "sns_silib.h"
 #include "kernel_defines.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 CRYS_RND_WorkBuff_t *rndWorkBuff_ptr;

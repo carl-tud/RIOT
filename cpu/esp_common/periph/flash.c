@@ -49,7 +49,7 @@
 
 #endif /* !CPU_ESP8266 */
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define ESP_PART_TABLE_ADDR         0x8000 /* TODO configurable as used in Makefile.include */

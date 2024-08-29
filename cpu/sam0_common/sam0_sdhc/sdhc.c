@@ -57,7 +57,7 @@
 #include "time_units.h"
 #include "ztimer.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #ifndef SDHC_CLOCK

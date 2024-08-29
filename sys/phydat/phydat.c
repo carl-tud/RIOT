@@ -24,7 +24,7 @@
 #include <stdint.h>
 #include "phydat.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #ifndef PHYDAT_FIT_TRADE_PRECISION_FOR_ROM

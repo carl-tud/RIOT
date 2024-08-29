@@ -24,7 +24,7 @@
 #include "crys_hmac.h"
 #include "crys_hmac_error.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 psa_status_t psa_mac_compute_hmac_sha256(const psa_key_attributes_t *attributes,

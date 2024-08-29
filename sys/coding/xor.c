@@ -23,7 +23,7 @@
 #include "bitfield.h"
 #include "coding/xor.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static void _gen_parity(const void *data, size_t len, uint8_t *out)

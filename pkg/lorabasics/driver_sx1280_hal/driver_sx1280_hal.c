@@ -32,7 +32,7 @@
 #include "sx1280_constants.h"
 #include "sx1280_driver/src/sx1280_hal.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /**

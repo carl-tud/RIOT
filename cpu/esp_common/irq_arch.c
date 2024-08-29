@@ -23,7 +23,7 @@
 
 #include "esp/common_macros.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /**

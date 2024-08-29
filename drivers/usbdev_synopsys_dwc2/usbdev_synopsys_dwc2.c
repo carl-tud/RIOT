@@ -60,7 +60,7 @@
  * is able to interfere with USB functionality and you might see different
  * errors than debug disabled
  */
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #ifdef CPU_ESP32

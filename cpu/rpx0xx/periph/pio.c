@@ -29,7 +29,7 @@
 #include "io_reg.h"
 #include "pio/pio.h"
 #include "periph/pio/i2c.h"
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* ISR vectors */

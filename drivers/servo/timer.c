@@ -32,7 +32,7 @@
 #include "test_utils/expect.h"
 #include "time_units.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 servo_timer_ctx_t servo_timer_default_ctx;

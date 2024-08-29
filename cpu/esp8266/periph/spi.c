@@ -33,7 +33,7 @@
 #include "esp_attr.h"
 #include "gpio_arch.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #include "esp/iomux_regs.h"

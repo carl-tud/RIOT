@@ -26,7 +26,7 @@
 #include "net/gnrc/netif/conf.h"
 #include "include/init_devs.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #ifndef NRF24L01P_NG_EXTRA_STACKSIZE

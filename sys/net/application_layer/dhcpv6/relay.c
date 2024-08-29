@@ -30,7 +30,7 @@
 
 #include "_dhcpv6.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define AUTO_INIT_PRIO      (THREAD_PRIORITY_MAIN - 1)

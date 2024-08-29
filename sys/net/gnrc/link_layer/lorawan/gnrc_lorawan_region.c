@@ -18,7 +18,7 @@
 #include "net/gnrc/lorawan/region.h"
 #include "random.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define GNRC_LORAWAN_DATARATES_NUMOF (6U)

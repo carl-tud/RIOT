@@ -20,7 +20,7 @@
 #include "lwm2m_client.h"
 #include "objects/ipso_sensor_base.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define _USED_INSTANCES(obj) (obj->object.instanceList)

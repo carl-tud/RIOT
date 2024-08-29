@@ -101,9 +101,22 @@ enum {
 #include <stdio.h>
 
 /**
+ * @def LOG_PREFIX
+ *
+ * @brief Prefix for`LOG` invocations. Defaults to the `LOG_DOMAIN: `.
+ *        Can be defined to a custom prefix on a file-based-level.
+ * @note `LOG_DOMAIN` will be automatically set to `module.filename`.
+ */
+#ifdef LOG_DOMAIN
+# define LOG_PREFIX LOG_DOMAIN ": "
+#else
+# define LOG_PREFIX
+#endif
+
+/**
  * @brief Default log_write function, just maps to printf
  */
-#define log_write(level, ...) printf(__VA_ARGS__)
+#define log_write(level, ...) printf(LOG_PREFIX __VA_ARGS__)
 #endif
 
 #ifdef __cplusplus

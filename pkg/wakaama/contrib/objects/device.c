@@ -27,7 +27,7 @@
 #include "objects/device.h"
 #include "lwm2m_client_config.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 /* Set to true if reboot requested. */

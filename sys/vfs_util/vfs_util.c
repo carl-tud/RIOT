@@ -22,7 +22,7 @@
 #include "vfs.h"
 #include "vfs_util.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 int vfs_file_from_buffer(const char *file, const void *buf, size_t len)

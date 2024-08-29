@@ -32,7 +32,7 @@
 #include "net/netdev/eth.h"
 #include "timex.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #if !defined(DOSE_TIMER_DEV) && IS_ACTIVE(MODULE_DOSE_WATCHDOG)

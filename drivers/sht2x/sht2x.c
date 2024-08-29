@@ -34,7 +34,7 @@
 #include "sht2x.h"
 #include "sht2x_params.h"
 
-#define ENABLE_DEBUG        0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 /**

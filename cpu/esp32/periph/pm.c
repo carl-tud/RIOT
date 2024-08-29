@@ -38,7 +38,7 @@
 
 #include "esp_idf_api/uart.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 extern void rtt_save_counter(void);

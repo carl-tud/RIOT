@@ -25,7 +25,7 @@
 #include "periph/spi.h"
 #include "pm_layered.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static void _print_buffer(const char* s, const uint8_t* buffer, uint16_t len)

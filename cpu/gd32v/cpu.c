@@ -21,7 +21,7 @@
 #include "periph_cpu.h"
 #include "periph_conf.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 extern void __libc_init_array(void);

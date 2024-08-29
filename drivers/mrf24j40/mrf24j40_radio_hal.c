@@ -4,7 +4,7 @@
 #include "mrf24j40_registers.h"
 #include "net/ieee802154/radio.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static const ieee802154_radio_ops_t mrf24j40_ops;

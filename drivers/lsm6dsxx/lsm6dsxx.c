@@ -30,7 +30,7 @@
 #include "lsm6dsxx.h"
 #include "lsm6dsxx_internal.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define BUS         (dev->params.i2c)

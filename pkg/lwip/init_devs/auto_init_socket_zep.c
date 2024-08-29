@@ -23,7 +23,7 @@
 
 #include "lwip_init_devs.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define NETIF_SOCKET_ZEP_NUMOF        ARRAY_SIZE(socket_zep_params)

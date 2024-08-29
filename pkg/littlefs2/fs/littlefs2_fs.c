@@ -26,7 +26,7 @@
 
 #include "fs/littlefs2_fs.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include <debug.h>
 
 static int littlefs_err_to_errno(ssize_t err)

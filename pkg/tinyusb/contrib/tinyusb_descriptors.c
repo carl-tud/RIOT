@@ -38,7 +38,7 @@
 
 #include "tinyusb_descriptors.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 /* don't compile this part if CONFIG_TUSBD_USE_CUSTOM_DESC is set */

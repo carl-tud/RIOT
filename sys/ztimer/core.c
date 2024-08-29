@@ -34,7 +34,7 @@
 #include "ztimer.h"
 #include "log.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static void _add_entry_to_list(ztimer_clock_t *clock, ztimer_base_t *entry);

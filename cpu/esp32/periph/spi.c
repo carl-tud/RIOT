@@ -50,7 +50,7 @@
 #undef MHZ
 #include "macros/units.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* Ensure that the SPIn_* symbols define SPI_DEV(n) */

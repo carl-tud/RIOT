@@ -24,7 +24,7 @@
 #include "stdio_base.h"
 #include "pipe.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #ifndef CONFIG_TELNET_TCP_QUEUE_SIZE

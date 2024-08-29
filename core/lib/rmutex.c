@@ -29,7 +29,7 @@
 #include "rmutex.h"
 #include "thread.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static int _lock(rmutex_t *rmutex, int trylock)

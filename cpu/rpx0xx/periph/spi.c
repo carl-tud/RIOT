@@ -25,7 +25,7 @@
 #include "periph/gpio.h"
 #include "periph/spi.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /**

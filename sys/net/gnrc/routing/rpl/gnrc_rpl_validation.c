@@ -20,7 +20,7 @@
 #include "net/gnrc/rpl.h"
 #include "gnrc_rpl_internal/validation.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 bool gnrc_rpl_validation_options(int msg_type, gnrc_rpl_instance_t *inst,

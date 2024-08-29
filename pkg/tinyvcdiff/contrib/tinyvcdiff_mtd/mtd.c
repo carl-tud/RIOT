@@ -11,7 +11,7 @@
 #include "assert.h"
 #include <string.h>
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static int _erase (void *dev, size_t offset, size_t len)

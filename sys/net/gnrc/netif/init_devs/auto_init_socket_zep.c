@@ -24,7 +24,7 @@
 #include "include/init_devs.h"
 #include "net/netdev/ieee802154_submac.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /**

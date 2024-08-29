@@ -37,7 +37,7 @@
 #endif
 #include "irq_arch.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define MAX_HANDLER_NUM     5

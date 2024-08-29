@@ -25,7 +25,7 @@
 #include "hts221.h"
 #include "periph/i2c.h"
 
-#define ENABLE_DEBUG    0
+/* #define ENABLE_DEBUG        0 */
 #include "debug.h"
 
 #define BUS             (dev->p.i2c)

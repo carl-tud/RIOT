@@ -36,7 +36,7 @@
 #include "stdio_base.h"
 #include "stdio_uart.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 static void _isrpipe_write_one_wrapper(void *arg, uint8_t value)

@@ -46,7 +46,7 @@
 #include "net/dsm.h"
 #endif
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 /* Sentinel value indicating that no immediate response is required */

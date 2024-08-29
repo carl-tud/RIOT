@@ -29,7 +29,7 @@
 #include "sx126x_hal.h"
 #include "sx126x_internal.h"
 
-#define ENABLE_DEBUG 0
+/* #define ENABLE_DEBUG 0 */
 #include "debug.h"
 
 #define SX126X_SPI_SPEED    (SPI_CLK_1MHZ)
